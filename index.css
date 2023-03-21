@@ -17,6 +17,7 @@
     padding: 30px;
     border-radius: 10px;
     min-height: 300px;
+    margin-top: 80px;
   }
   
   .btn {
@@ -128,3 +129,91 @@ header .container-fluid {
     border: none !important;
     border-bottom: none !important;
 }
+
+.textBubble {
+    position: relative;
+    padding: 20px;
+    border: solid red !important;
+    text-align: left !important;
+    height: 250px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.stars {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 5px;
+}
+
+
+p {
+    word-wrap: break-word;
+    margin-bottom: 12px;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  
+  p:before, p:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+  }
+  
+  .send {
+    color: #00495F; 
+    background: #FDD9D5;
+    align-self: flex-end;
+    padding: 50px;
+    font-size: 30px;
+  }
+  
+  .send:before {
+    right: -7px;
+    width: 20px;
+    background-color: #FDD9D5;
+    border-bottom-left-radius: 16px 14px;
+  }
+  
+  .send:after {
+    right: -26px;
+    width: 26px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .receive {
+    background: #FDD9D5;
+    color: #00495F;
+    align-self: flex-start;
+    padding: 50px;
+    font-size: 30px;
+  }
+  
+  .receive:before {
+    left: -7px;
+    width: 20px;
+    background-color: #FDD9D5;
+    border-bottom-right-radius: 16px 14px;
+  }
+  
+  .receive:after {
+    left: -26px;
+    width: 26px;
+    background-color: white;
+    border-bottom-right-radius: 10px !important;
+  }
+  
+  .container2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    max-width: 1500px;
+  }
+  
