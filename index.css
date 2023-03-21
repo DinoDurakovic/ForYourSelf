@@ -226,9 +226,20 @@ p {
 
   .rate {
     max-height: 150px !important;
+    max-width: 150px;
   }
 
   .hello {
     display: ;
   }
 
+.hello2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rate2 {
+    max-height: 150px !important;
+    max-width: 150px;
+    align-self: flex-end;
+  }
