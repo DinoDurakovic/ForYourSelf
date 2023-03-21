@@ -1,0 +1,128 @@
+.navbar-nav {
+    background-color: #00495F !important;
+    padding-right: 20px;
+    border-radius: 10px;
+  }
+  
+  .nav-link {
+    color: white !important;
+    padding-left: 30px !important;
+  }
+  
+  .blue-box {
+    background-color: #00495F !important;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    min-height: 300px;
+  }
+  
+  .btn {
+    border:1.2px solid #00495F !important;
+    color: #00495F !important;
+    background-color: #FDD9D5 !important;
+    border-radius: 10px !important;
+  }
+  
+  .jumbotron {
+    background-color: transparent !important;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .header-container {
+    position: relative;
+  }
+  
+  .header-background {
+    background: url(/Images/Frame\ 48.png);
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-color: none !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 550px;
+    z-index: -1;
+  }
+
+
+  .cards-section {
+    padding: 50px 0;
+    background-image: url(Images/unsplash_yaSLNLtKRIU.png) !important;
+    background-color: #D8D5BA ;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+  }
+  
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex-basis: calc(25% - 15px);
+    margin-bottom: 30px;
+    padding: 15px;
+    background: none !important;
+    text-align: center;
+    border: none !important;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .card-header {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #00495F;
+    background-color: none !important;
+    border: none !important
+  }
+  
+  .card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+  }
+  
+
+  .container-fluid {
+    background-color: #FDD9D5;
+    width: 100vw !important;
+    border-bottom: none !important;
+    height: 80px;
+    align-items: center;
+}
+
+
+.head1 {
+    box-sizing: none !important;
+}
+
+.logo {
+    max-width: 150px;
+    max-height: 150px !important;
+    position: absolute;
+}
+
+.navbar {
+    justify-content: end;
+}
