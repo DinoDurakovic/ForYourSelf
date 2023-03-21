@@ -229,9 +229,7 @@ p {
     max-width: 150px;
   }
 
-  .hello {
-    display: ;
-  }
+
 
 .hello2 {
     display: flex;
@@ -243,3 +241,13 @@ p {
     max-width: 150px;
     align-self: flex-end;
   }
+
+.three {
+    max-width: 80px;
+    align-self: flex-end;
+}
+
+.four {
+    max-width: 80px;
+    align-self: flex-end;
+}
