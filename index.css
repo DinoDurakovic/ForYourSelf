@@ -39,15 +39,17 @@
   }
   
   .header-background {
-    position: absolute;
-    background-size: cover;
-    background-position: center;
-    background-color: none !important;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    max-height: 550px;
+    height: 100%;
+    background-image: url("your-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     z-index: -1;
+    transform: scale(1.2);
   }
 
 
@@ -108,7 +110,7 @@
   
 
   .container-fluid {
-    background-color: #FDD9D5;
+    background-color: #FDD9D5 ;
     width: 100vw !important;
     border-bottom: none !important;
     height: 80px;
@@ -258,3 +260,27 @@ section.two {
     justify-content: center;
     align-items: center;
 }
+
+
+footer {
+    background-color: #00495F;
+    color: #FDD9D5;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  /* For screens with a max-width of 767px (mobile screens) */
+@media only screen and (max-width: 767px) {
+    /* Change the display property of the card-wrapper class to flex */
+    .card-wrapper {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    /* Set the width of the cards to 100% */
+    .card {
+      width: 100%;
+    }
+  }
